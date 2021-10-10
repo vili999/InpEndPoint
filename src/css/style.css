@@ -1,0 +1,67 @@
+/* General */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Table Users */
+
+#users {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+
+  #table_id td:nth-child(2)  {
+    white-space: nowrap;
+  }
+
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #users tr:nth-child(even){
+    background-color: #f2f2f2;
+    white-space: nowrap;
+  }
+
+  #users tr:hover {
+    background-color: 	#C0C0C0;
+  }
+
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4267B3;
+    color: white;
+  }
+
+/* Table Details */
+
+  #details {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  #details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #details tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  #details tr:hover {
+    background-color: #C0C0C0;
+    border: 1px solid white;
+  }
+  
+  #details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4267B3;
+    color: white;
+  } 
