@@ -14,7 +14,7 @@ Create a custom, not a WP API REST API endpoint "http://localhost/your_site/task
 
 == Installation and Work ==
 This section describes how to install the plugin and how it is working.
-1. Upload the plugin files to the `/wp-content/plugins/inp-end-point` directory, or install the plugin through the composer with "composer require  --dev vili999/inp-end-point" command.
+1. Upload the plugin files to the `/wp-content/plugins/example-directory` directory, start "composer install" command.
 2. Activate the plugin through the Dashboard, Plugins screen in WordPress.
 3. When installed, the plugin makes available a custom endpoint on the WordPress site "/task/company". With “custom endpoint” we mean an arbitrary URL.
 This is not a REST endpoint. When a visitor navigates to that endpoint, the plugin sends an HTTP request to a REST API endpoint. The API is available at https://jsonplaceholder.typicode.com/ and the endpoint to call is /users.
